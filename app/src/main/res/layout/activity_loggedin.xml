@@ -14,7 +14,7 @@
         android:text="TextView"/>
 
     <Button
-        android:id="@+id/BTN_kijelentkezes"
+        android:id="@+id/bttn_kijelentkezes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Kijelentkezes" />
