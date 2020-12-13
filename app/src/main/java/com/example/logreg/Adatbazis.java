@@ -44,7 +44,7 @@ public class Adatbazis extends SQLiteOpenHelper {
 
     public Cursor Bejelentkezes(String felhnev, String jelszo){
         SQLiteDatabase db = this.getReadableDatabase();
-        return this.getReadableDatabase().rawQuery("SELECT teljesnev FROM " +
+        return this.getReadableDatabase().rawQuery("SELECT teljnev FROM " +
                 FELHASZNALO_TABLA + " WHERE felhnev = '" + felhnev + "' and jelszo = '" + jelszo + "'" ,null );
     }
 

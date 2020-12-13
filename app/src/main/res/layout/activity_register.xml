@@ -42,8 +42,7 @@
         android:id="@+id/bttn_regisztral"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Regisztráció"
-        android:enabled="false"/>
+        android:text="Regisztráció"/>
 
     <Button
         android:id="@+id/bttn_vissza"

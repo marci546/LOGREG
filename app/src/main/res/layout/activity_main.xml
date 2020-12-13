@@ -30,7 +30,7 @@
         android:text="Bejelentkezés"/>
 
     <Button
-        android:id="@+id/bttn_regisztracio"
+        android:id="@+id/bttn_regisztral"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Regisztráció" />
